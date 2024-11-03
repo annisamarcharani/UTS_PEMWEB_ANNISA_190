@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: url('wallpaper\ 3_hd_fiks.png');
+    display: flex;
+    justify-content: center;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo
+{
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 40px;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+header nav a:hover, header nav a.active {
+    background: #fff;
+    color: black;
+}
+
+.Welcome {
+    position: absolute;
+    width: 60%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Welcome h1 {
+    color: black;
+    font-size: 2.5em;
+    font-weight: 1000;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.Welcome h2{
+    color:black;
+    font-size: 100%;
+}
+
+.Welcome .explore{
+    border: none;
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 1em;
+    font-weight: 1000;
+    margin-top: 15px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+.Welcome .explore:hover {
+    background-color: black;
+    color: #fff;
+}
